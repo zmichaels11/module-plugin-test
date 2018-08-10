@@ -1,0 +1,12 @@
+plugins {
+    id 'java-library'
+    id 'org.gradle.java.experimental-jigsaw' version '0.1.1'
+}
+
+sourceCompatibility = 10
+javaModule.name = 'animals.barn'
+
+dependencies {
+    implementation project(':animals.core')
+    testImplementation 'junit:junit:4.12'
+}

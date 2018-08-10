@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.gradle.java.experimental-jigsaw' version '0.1.1'
+}
+
+sourceCompatibility = 10
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(":animals.core")
+    testImplementation 'junit:junit:4.12'
+}

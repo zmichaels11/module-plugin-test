@@ -1,0 +1,6 @@
+rootProject.name = 'moduletest'
+include 'animals.core'
+include 'animals.barn'
+include 'animals.house'
+include 'petshop'
+
